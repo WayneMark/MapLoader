@@ -1,5 +1,5 @@
 # MapLoader
-A symple class library supporting loading map files from either embedded resources or file system
+A simple class library supporting loading map files from either embedded resources or file system
 
 ## How to use
 1. Add reference to this class library
