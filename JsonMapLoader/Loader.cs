@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
-using MapLoader.Model;
+using JsonMapLoader.Model;
 using Newtonsoft.Json;
 
-namespace MapLoader
+namespace JsonMapLoader
 {
     public static class Loader
     {
@@ -26,7 +26,7 @@ namespace MapLoader
         {
             System.Reflection.Assembly asm = System.Reflection.Assembly.GetExecutingAssembly();
             // you have to change the 'build action' value of the target resource to embedded resource.
-            Stream stream = asm.GetManifestResourceStream("MapLoader.Resources.Map.json");
+            Stream stream = asm.GetManifestResourceStream("JsonMapLoader.Resources.Map.json");
             return LoadStream(new StreamReader(stream));
         }
         private static MapModel LoadPath(string path)

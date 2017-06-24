@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapLoader", "MapLoader\MapLoader.csproj", "{1AEE16BD-178C-4254-8511-580C122BDB55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonMapLoader", "JsonMapLoader\JsonMapLoader.csproj", "{1AEE16BD-178C-4254-8511-580C122BDB55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMapLoader", "UnitTestMapLoader\UnitTestMapLoader.csproj", "{C6458936-EC7A-470E-923F-FDC0A2C01D71}"
 EndProject

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MapLoader")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("JsonMapLoader")]
+[assembly: AssemblyDescription("A simple map loader which supports load from resource and file system")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MapLoader")]
+[assembly: AssemblyCompany("DevChache")]
+[assembly: AssemblyProduct("JsonMapLoader")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

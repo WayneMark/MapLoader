@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>DevChache</authors>
+    <owners>DevChache</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/DevChache/MapLoader.git</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First NuGet package for JsonMapLoader.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>map asp.net resource</tags>
+  </metadata>
+</package>

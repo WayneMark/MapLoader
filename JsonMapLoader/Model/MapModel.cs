@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Runtime.Serialization;
 
-namespace MapLoader.Model
+namespace JsonMapLoader.Model
 {
 
     [DataContract]

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MapLoader;
-using MapLoader.Model;
+using JsonMapLoader;
+using JsonMapLoader.Model;
 
 namespace UnitTestMapLoader
 {

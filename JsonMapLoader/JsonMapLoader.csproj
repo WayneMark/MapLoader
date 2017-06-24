@@ -7,8 +7,8 @@
     <ProjectGuid>{1AEE16BD-178C-4254-8511-580C122BDB55}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MapLoader</RootNamespace>
-    <AssemblyName>MapLoader</AssemblyName>
+    <RootNamespace>JsonMapLoader</RootNamespace>
+    <AssemblyName>JsonMapLoader</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -52,6 +52,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <EmbeddedResource Include="Resources\Map.json" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
