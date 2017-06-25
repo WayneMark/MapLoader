@@ -9,7 +9,13 @@
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/DevChache/MapLoader.git</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>Add Reference to this class library and rock.
+
+Example structure of resources:
+
+/Resources/Map.json
+
+Notice: you must change the build action of the target resource file to 'embedded resource'</description>
     <releaseNotes>First NuGet package for JsonMapLoader.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>map asp.net resource</tags>

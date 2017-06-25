@@ -24,7 +24,7 @@ namespace JsonMapLoader
             Assembly asms = System.Reflection.Assembly.GetEntryAssembly();
             String rootNamespace = asms.FullName.Split(',')[0];
             // you have to change the 'build action' value of the target resource to embedded resource.
-            Stream stream = asms.GetManifestResourceStream(rootNamespace+".Resources.Map.json");
+            Stream stream = asms.GetManifestResourceStream(rootNamespace+".Resources."+filename);
             return LoadStream(new StreamReader(stream));
         }
         private static MapModel LoadPath(string path)
