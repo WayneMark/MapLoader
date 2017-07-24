@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 
 namespace JsonMapLoader
 {
+    
     public static class Loader
     {
         public static MapModel Load(string name,bool fromResource = true)
